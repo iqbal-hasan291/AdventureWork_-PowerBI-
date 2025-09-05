@@ -1,54 +1,57 @@
-# Adventure Works Story in Numbers
-
+Adventure Works Story in Numbers
 📌 Project Overview
 
-This project is a comprehensive analysis of the Adventure Works dataset using Power BI. The goal was to transform raw transactional data into actionable insights through interactive dashboards, storytelling, and advanced customer segmentation.
+This project is built on the Adventure Works dataset and developed in Power BI. The goal was to transform transactional data into a business story, uncovering insights that can guide strategy and decision-making.
 
 The report is designed across multiple pages:
 
-Overview Dashboard
+Overview Dashboard → snapshot of revenue, profit, orders, and returns
 
-Territory Analysis
+Territory Analysis → identifying regions with the highest contribution
 
-Customer Analysis with RFM Segmentation
+Customer Analysis + RFM Segmentation → classifying customers into loyal, active, and at-risk groups
 
-Product Analysis with Price Adjustment and Target Tracking
+Product Analysis → revenue difference, price adjustment impact, and target tracking
+
+Tree Diagram Analysis → mapping orders by gender → product → subcategory
 
 🗂 Data Modeling
 
-Built a star schema for better relationships between fact and dimension tables
+Created a star schema connecting fact and dimension tables
 
-Cleaned and structured tables for customers, products, territories, and sales
+Cleaned and structured data for customers, products, territories, and sales
 
-Established relationships to support dynamic filtering and drill-through analysis
+Established relationships to enable dynamic filtering and drill-throughs
 
-Used DAX measures for KPIs such as revenue, profit, orders, returns, and customer activity
+Built DAX measures for KPIs: revenue, profit, orders, returns, and customer metrics
 
 ❓ Problem Statement
 
-How can Adventure Works improve its sales performance, customer retention, and product strategy by analyzing revenue, orders, customer behavior, and regional trends?
+How can Adventure Works enhance its sales strategy, customer retention, and product pricing through insights from sales, customer behavior, and regional performance data?
 
 🛠 Tools & Technology
 
-Power BI → Dashboard creation, visual storytelling, DAX measures
+Power BI → dashboard design, data visualization, DAX measures
 
-Excel → Quick validation and checks
+Excel → validation and quick checks
 
-GitHub → Project documentation and sharing
+GitHub → project documentation and sharing
 
 🔍 Method
 
-Data modeling and cleaning for consistency
+Data modeling and transformation
 
-Designing a multi-page dashboard with drill-throughs and filters
+Dashboard design with multiple report pages
 
-Performing RFM segmentation to categorize customers
+RFM segmentation for customer retention analysis
 
-Conducting territory and product performance analysis
+Territory performance breakdown
 
-Implementing target tracking and price adjustment analysis
+Product analysis with price adjustment and revenue difference
 
-Presenting insights through interactive visuals
+Tree diagram visualization for customer buying patterns
+
+Target tracking with line charts to monitor performance month over month
 
 📊 Key Insights
 KPI Summary
@@ -57,23 +60,25 @@ Revenue	$15.73M	Strong overall sales performance
 Profit	$6.57M	Healthy profit margin
 Orders	13.33K	Total customer orders placed
 Quantity Sold	39K	Units sold across all product lines
-Return Rate	2.18%	Low, showing high product satisfaction
+Return Rate	2.18%	Low, indicating high product satisfaction
 Active Customers	10,559	Growing steadily month by month
 Other Findings
 
-Top Product Category: Bikes lead in total orders
+Top Category: Bikes had the highest order volume
 
-Top Region: Australia generated the highest orders
+Top Region: Australia generated the most orders
 
 Customer Segments:
 
-Lower middle class placed the most orders (4.5K)
+Lower middle class → highest number of orders (4.5K)
 
-Professionals drove the highest revenue with avg spend of $1.49K
+Professionals → highest revenue contribution (avg spend $1.49K)
 
-RFM Segmentation: Identified loyal customers and customers who need re-engagement
+Product Analysis: Price adjustments revealed how small % changes influenced total revenue difference
 
-Product Page: Price adjustment visualized with line chart; target vs actual analysis added
+Tree Diagram: Orders broken down by gender → product → subcategory, highlighting key buying behaviors for decision-making
+
+RFM Segmentation: Identified loyal customers and customers needing re-engagement
 
 📌 Dashboards
 
@@ -81,26 +86,28 @@ Screenshots of the Power BI dashboards are included in the repository.
 
 ✅ Results
 
-Built a multi-page Power BI dashboard delivering both high-level KPIs and detailed insights
+Delivered a multi-page Power BI dashboard covering customers, territories, and products
 
-Identified opportunities for customer retention using RFM segmentation
+Showed how pricing decisions impact revenue and profitability
 
-Highlighted regional and product-level growth areas
+Used RFM segmentation to highlight customer loyalty and retention opportunities
 
-Demonstrated how target analysis and price adjustments can inform decision-making
+Provided insights on regional strengths and customer demographics
+
+Enabled leadership to make data-driven product and pricing strategies
 
 🎯 What I Learned
 
-How to structure and design a multi-page Power BI report for different audiences
+How to design a Power BI report that tells a story across multiple perspectives
 
-The value of RFM segmentation in identifying loyal vs. at-risk customers
+Why RFM segmentation is valuable for customer retention analysis
 
-How territory and product analysis reveal business opportunities
+How to use price adjustment and revenue difference to evaluate pricing strategies
 
-How to apply target tracking and price adjustments in product analysis
+The role of tree diagrams in understanding buying behavior by gender and product hierarchy
 
-Most importantly, how to translate raw numbers into a cohesive business story
+Most importantly, how to turn raw data into strategic insights that support decision-making
 
 🏁 Conclusion
 
-This project showed how data storytelling can turn raw numbers into meaningful business insights. By combining territory, customer, and product analysis with segmentation and performance tracking, Adventure Works can better understand its customers, optimize product strategies, and focus on high-value segments for growth.
+This project demonstrated how data storytelling can go beyond dashboards. By combining revenue analysis, product pricing, territory performance, customer segmentation, and tree diagram insights, Adventure Works can better understand its market, retain valuable customers, and make smarter business decisions.
