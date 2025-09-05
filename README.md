@@ -75,7 +75,7 @@ Screenshots of the Power BI dashboards are included in the repository.
 
 ## LinkedIn Video
 Check out my walkthrough video of this project on LinkedIn:  
-[Watch Video](https://www.linkedin.com/feed/update/[LinkedIn Video Link]/)
+[Watch Video]([https://www.linkedin.com/feed/update/[LinkedIn Video Link]/](https://www.linkedin.com/posts/iqbalhossain29_powerbi-dataanalytics-businessintelligence-activity-7369754167608819712-c-7D?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD6nujABwryqTi9MG7-cmnBKYNCVVTiRJPU)
 
 ## Results
 - Delivered a **multi-page Power BI dashboard** covering customers, territories, and products  
