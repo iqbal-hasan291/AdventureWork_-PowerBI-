@@ -15,7 +15,7 @@ The report includes multiple pages:
 - Cleaned and structured tables for customers, products, territories, and sales  
 - Established relationships to enable dynamic filtering and drill-throughs  
 
-![https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/8810be792638514dbac4856795627ea11118dee4/image/Data_Modeling.png]
+!["https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/8810be792638514dbac4856795627ea11118dee4/image/Data_Modeling.png"]
 
 ## Problem Statement
 How can Adventure Works improve its **sales strategy, customer retention, and product pricing** through insights from sales, customer behavior, and regional performance data?
