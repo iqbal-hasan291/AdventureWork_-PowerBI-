@@ -1,25 +1,25 @@
 Adventure Works Story in Numbers
 📌 Project Overview
 
-This project is built on the Adventure Works dataset and developed in Power BI. The goal was to transform transactional data into a business story, uncovering insights that can guide strategy and decision-making.
+This project is built on the Adventure Works dataset using Power BI. The goal was to transform transactional data into a business story, uncovering insights that can guide strategic decisions.
 
-The report is designed across multiple pages:
+The report includes multiple pages:
 
-Overview Dashboard → snapshot of revenue, profit, orders, and returns
+Overview Dashboard: snapshot of revenue, profit, orders, and returns
 
-Territory Analysis → identifying regions with the highest contribution
+Territory Analysis: identifying regions with the highest contribution
 
-Customer Analysis + RFM Segmentation → classifying customers into loyal, active, and at-risk groups
+Customer Analysis + RFM Segmentation: classifying customers into loyal, active, and at-risk groups
 
-Product Analysis → revenue difference, price adjustment impact, and target tracking
+Product Analysis: revenue difference, price adjustment impact, and target tracking
 
-Tree Diagram Analysis → mapping orders by gender → product → subcategory
+Tree Diagram Analysis: mapping orders by gender → product → subcategory for better decision-making
 
 🗂 Data Modeling
 
-Created a star schema connecting fact and dimension tables
+Built a star schema connecting fact and dimension tables
 
-Cleaned and structured data for customers, products, territories, and sales
+Cleaned and structured tables for customers, products, territories, and sales
 
 Established relationships to enable dynamic filtering and drill-throughs
 
@@ -27,11 +27,11 @@ Built DAX measures for KPIs: revenue, profit, orders, returns, and customer metr
 
 ❓ Problem Statement
 
-How can Adventure Works enhance its sales strategy, customer retention, and product pricing through insights from sales, customer behavior, and regional performance data?
+How can Adventure Works improve its sales strategy, customer retention, and product pricing through insights from sales, customer behavior, and regional performance data?
 
 🛠 Tools & Technology
 
-Power BI → dashboard design, data visualization, DAX measures
+Power BI → dashboard design, visualization, DAX measures
 
 Excel → validation and quick checks
 
@@ -84,6 +84,12 @@ RFM Segmentation: Identified loyal customers and customers needing re-engagement
 
 Screenshots of the Power BI dashboards are included in the repository.
 
+🎥 LinkedIn Video
+
+Check out my walkthrough video of this project on LinkedIn:
+[Watch Video](https://www.linkedin.com/feed/update/[LinkedIn
+ Video Link]/)
+
 ✅ Results
 
 Delivered a multi-page Power BI dashboard covering customers, territories, and products
@@ -106,8 +112,8 @@ How to use price adjustment and revenue difference to evaluate pricing strategie
 
 The role of tree diagrams in understanding buying behavior by gender and product hierarchy
 
-Most importantly, how to turn raw data into strategic insights that support decision-making
+How to turn raw data into strategic insights that support decision-making
 
 🏁 Conclusion
 
-This project demonstrated how data storytelling can go beyond dashboards. By combining revenue analysis, product pricing, territory performance, customer segmentation, and tree diagram insights, Adventure Works can better understand its market, retain valuable customers, and make smarter business decisions.
+This project demonstrates how data storytelling can go beyond dashboards. By combining revenue analysis, product pricing, territory performance, customer segmentation, and tree diagram insights, Adventure Works can better understand its market, retain valuable customers, and make smarter business decisions.
