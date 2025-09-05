@@ -3,6 +3,8 @@
 ## Project Overview
 This project is built on the **Adventure Works dataset** using **Power BI**. The goal was to transform transactional data into a **business story**, uncovering insights that can guide strategic decisions.
 
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/4f169810dcbd7f18abac3852c91ef14a51a3adb8/image/Home.png)
+
 The report includes multiple pages:  
 - **Overview Dashboard:** snapshot of revenue, profit, orders, and returns  
 - **Territory Analysis:** identifying regions with the highest contribution  
@@ -11,11 +13,11 @@ The report includes multiple pages:
 - **Tree Diagram Analysis:** mapping orders by gender → product → subcategory for better decision-making
 
 ## Data Modeling
-- Built a **star schema** connecting fact and dimension tables  
+- Built a **snowflake schema** connecting fact and dimension tables  
 - Cleaned and structured tables for customers, products, territories, and sales  
 - Established relationships to enable dynamic filtering and drill-throughs  
 
-!(https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/8810be792638514dbac4856795627ea11118dee4/image/Data_Modeling.png)
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/8810be792638514dbac4856795627ea11118dee4/image/Data_Modeling.png)
 
 ## Problem Statement
 How can Adventure Works improve its **sales strategy, customer retention, and product pricing** through insights from sales, customer behavior, and regional performance data?
@@ -59,6 +61,17 @@ How can Adventure Works improve its **sales strategy, customer retention, and pr
 
 ## Dashboards
 Screenshots of the Power BI dashboards are included in the repository.
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/4f169810dcbd7f18abac3852c91ef14a51a3adb8/image/OverView.png)
+
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/4f169810dcbd7f18abac3852c91ef14a51a3adb8/image/Geo.png)
+
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/4f169810dcbd7f18abac3852c91ef14a51a3adb8/image/Customer.png)
+
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/4f169810dcbd7f18abac3852c91ef14a51a3adb8/image/Product.png)
+
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/4f169810dcbd7f18abac3852c91ef14a51a3adb8/image/Overview2.png)
+
+![](https://github.com/iqbal-hasan291/AdventureWork_-PowerBI-/blob/4f169810dcbd7f18abac3852c91ef14a51a3adb8/image/Product2.png)
 
 ## LinkedIn Video
 Check out my walkthrough video of this project on LinkedIn:  
